@@ -38,7 +38,7 @@ public class CatalogoLivros {
 			return livrosIntervalo;
 		}
 		
-		public CatalogoLivros pesquisarPorTitulo(String titulo) {
+		public Livro pesquisarPorTitulo(String titulo) {
 			Livro livroPorTitulo = null;
 			if (!livrolist.isEmpty()) {
 				
